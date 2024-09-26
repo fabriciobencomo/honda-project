@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>Honda</title>
+</head>
+
+
+<header class="bg-secondary">
+    <nav class="flex justify-between mx-4">
+        <div class="">
+            <img src="../images/hondaLogo.png" alt="Logo" class="w-72">
+        </div>
+        <ul class="text-white text-primary flex justify-between items-center gap-x-10 pr-20 font-bold">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./noticias.html">Noticias</a></li>
+            <li><a href="./motos.html">Motos</a></li>
+            <li><a href="./concesionarios.html">Concesionarios</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container mx-auto py-20">  
+        <p class="text-3xl uppercase font-semibold italic text-center pb-8">Selecciona tu proxima motocicleta</p>
+        <hr>
+        <div class="main-vehicles grid grid-cols-3 gap-x-10 mx-4 pt-10">
+
+            <div class="card flex flex-col p-4 gap-y-3">
+                <div class="bg-gray-200 bg-moto">
+                    <img src="../images/moto1.png" alt="Moto" class="h-auto rounded-md px-8 py-8">
+                </div>
+                <p class="text-center uppercase moto-title pb-4 text-xl">Fox TR180</p>
+                <div class="flex flex-col justify-center items-center gap-y-2">
+                    <p class="font-bold">Monto: 5.000$</p>
+                    <p class="font-bold">Velocidad max: 180km</p>
+                    <p class="font-bold mb-4">Estilo: SNAKE</p>
+                    <button class="rounded-full p-2 font-bold w-5/6 text-white button-more-moto">Conocer más</button>
+                </div>           
+            </div>
+
+            <div class="card flex flex-col p-4 gap-y-3">
+                <div class="bg-gray-200 bg-moto">
+                    <img src="../images/moto2.png" alt="Moto" class="h-auto rounded-md px-8 py-8">
+                </div>
+                <p class="text-center uppercase moto-title pb-4  text-xl">AFRICA TWIN DCT</p>
+                <div class="flex flex-col justify-center items-center gap-y-2">
+                    <p class="font-bold">Monto: 16.000$</p>
+                    <p class="font-bold">Velocidad max: 210km</p>
+                    <p class="font-bold mb-4">Estilo: ADVENTURE</p>
+                    <button class="rounded-full p-2 font-bold w-5/6 text-white button-more-moto">Conocer más</button>
+                </div>           
+            </div>
+
+            <div class="card flex flex-col p-4 gap-y-3">
+                <div class="bg-gray-200 bg-moto">
+                    <img src="../images/moto3.png" alt="Moto" class="h-auto rounded-md px-8 py-8">
+                </div>
+                <p class="text-center uppercase moto-title pb-4  text-xl">CBR100RR</p>
+                <div class="flex flex-col justify-center items-center gap-y-2">
+                    <p class="font-bold">Monto: 30.000$</p>
+                    <p class="font-bold">Velocidad max: 300km</p>
+                    <p class="font-bold mb-4">Estilo: RACING</p>
+                    <button class="rounded-full p-2 font-bold w-5/6 text-white button-more-moto">Conocer más</button>
+                </div>           
+            </div>
+
+            
+
+        </div>
+    </div>
+</body>
+<footer class="bg-secondary h-20"></footer>

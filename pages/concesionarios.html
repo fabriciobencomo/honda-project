@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>Honda</title>
+</head>
+
+
+<header class="bg-secondary">
+    <nav class="flex justify-between mx-4">
+        <div class="">
+            <img src="../images/hondaLogo.png" alt="Logo" class="w-72">
+        </div>
+        <ul class="text-white text-primary flex justify-between items-center gap-x-10 pr-20 font-bold">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./noticias.html">Noticias</a></li>
+            <li><a href="./motos.html">Motos</a></li>
+            <li><a href="./concesionarios.html">Concesionarios</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+  <!-- Dealearship -->
+    <div class="hero-dealerships pb-20">
+        <img src="../images/heroDealerships.png" alt="hero-dealerships" class="w-full">
+        <div class="container mx-auto pt-10">
+            <p class="text-3xl uppercase font-semibold italic text-center pb-8">Encuentra tu Honda mas cercana</p>
+            <hr>
+            <div class="find-your-dealership w-full flex justify-center mt-10">
+                <div class="w-1/2 grid grid-cols-2 gap-x-10" >
+                    <div class="flex flex-col location-info">
+                        <label for="ciudad" class="font-bold italic">Ciudad</label>
+                        <select name="ciudad" id="" class="border-2 border-white border-b-red-700 pr-10 mt-4">
+                            <option value="valencia">Valencia</option>
+                            <option value="valencia">Caracas</option>
+                            <option value="valencia">Maracay</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-col type-info">
+                        <label for="tipo" class="font-bold italic">Tipo</label>
+                        <select name="tipo" id="" class="border-2 border-white border-b-red-700 pr-10 mt-4">
+                            <option value="valencia">Todos</option>
+                            <option value="valencia">Motos</option>
+                            <option value="valencia">Carros</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card-blocks mt-10 grid grid-cols-2 gap-x-6 gap-y-6">
+
+                <div class="card-dealership bg-primary p-10 rounded-xl flex flex-col gap-y-6">
+                    <p class="text-white text-xl font-bold text-center italic">Honda Dream San Diego</p>
+                    <div class="location-content text-white flex gap-x-4">
+                        <img src="../icons/location.svg" alt="location-icon">
+                        <p>UBICACIÓN: DISTRIBUIDOR SAN DIEGO, AUTOPISTA CARACAS-VALENCIA, EDIF. AUTOMUNDIAL.</p>
+                    </div>
+                    <div class="location-content text-white flex gap-x-4 items-center">
+                        <img src="../icons/phone.svg" alt="phone-icon">
+                        <p>TELEFONO: 0241-8748860</p>
+                    </div>
+                    <div class="location-content text-white flex gap-x-4 items-center">
+                        <img src="../icons/service.svg" alt="service-icon">
+                        <p>SERVICIOS: VENTA DE MOTOS-VENTA DE REPUESTOS - TALLER DE SERVICIO</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="button-secondary bg-white text-red-600 p-4 rounded-full font-bold">Ver mas Información</button>
+                    </div>
+                </div>
+
+                <div class="card-dealership bg-primary p-10 rounded-xl flex flex-col gap-y-6">
+                    <p class="text-white text-xl font-bold text-center italic">Honda Dream San Diego</p>
+                    <div class="location-content text-white flex gap-x-4">
+                        <img src="../icons/location.svg" alt="location-icon">
+                        <p>UBICACIÓN: DISTRIBUIDOR SAN DIEGO, AUTOPISTA CARACAS-VALENCIA, EDIF. AUTOMUNDIAL.</p>
+                    </div>
+                    <div class="location-content text-white flex gap-x-4 items-center">
+                        <img src="../icons/phone.svg" alt="phone-icon">
+                        <p>TELEFONO: 0241-8748860</p>
+                    </div>
+                    <div class="location-content text-white flex gap-x-4 items-center">
+                        <img src="../icons/service.svg" alt="service-icon">
+                        <p>SERVICIOS: VENTA DE MOTOS-VENTA DE REPUESTOS - TALLER DE SERVICIO</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="button-secondary bg-white text-red-600 p-4 rounded-full font-bold">Ver mas Información</button>
+                    </div>
+                </div>
+
+                <div class="card-dealership bg-primary p-10 rounded-xl flex flex-col gap-y-6">
+                    <p class="text-white text-xl font-bold text-center italic">Honda Dream San Diego</p>
+                    <div class="location-content text-white flex gap-x-4">
+                        <img src="../icons/location.svg" alt="location-icon">
+                        <p>UBICACIÓN: DISTRIBUIDOR SAN DIEGO, AUTOPISTA CARACAS-VALENCIA, EDIF. AUTOMUNDIAL.</p>
+                    </div>
+                    <div class="location-content text-white flex gap-x-4 items-center">
+                        <img src="../icons/phone.svg" alt="phone-icon">
+                        <p>TELEFONO: 0241-8748860</p>
+                    </div>
+                    <div class="location-content text-white flex gap-x-4 items-center">
+                        <img src="../icons/service.svg" alt="service-icon">
+                        <p>SERVICIOS: VENTA DE MOTOS-VENTA DE REPUESTOS - TALLER DE SERVICIO</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="button-secondary bg-white text-red-600 p-4 rounded-full font-bold">Ver mas Información</button>
+                    </div>
+                </div>
+
+                <div class="card-dealership bg-primary p-10 rounded-xl flex flex-col gap-y-6">
+                    <p class="text-white text-xl font-bold text-center italic">Honda Dream San Diego</p>
+                    <div class="location-content text-white flex gap-x-4">
+                        <img src="../icons/location.svg" alt="location-icon">
+                        <p>UBICACIÓN: DISTRIBUIDOR SAN DIEGO, AUTOPISTA CARACAS-VALENCIA, EDIF. AUTOMUNDIAL.</p>
+                    </div>
+                    <div class="location-content text-white flex gap-x-4 items-center">
+                        <img src="../icons/phone.svg" alt="phone-icon">
+                        <p>TELEFONO: 0241-8748860</p>
+                    </div>
+                    <div class="location-content text-white flex gap-x-4 items-center">
+                        <img src="../icons/service.svg" alt="service-icon">
+                        <p>SERVICIOS: VENTA DE MOTOS-VENTA DE REPUESTOS - TALLER DE SERVICIO</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="button-secondary bg-white text-red-600 p-4 rounded-full font-bold">Ver mas Información</button>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+</body>
+<footer class="bg-secondary h-20"></footer>

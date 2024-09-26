@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Honda</title>
+</head>
+
+
+<header class="bg-secondary">
+    <nav class="flex  justify-between mx-4">
+        <div class="">
+            <img src="./images/hondaLogo.png" alt="Logo" class="w-72">
+        </div>
+        <ul class="text-white text-primary flex justify-between items-center gap-x-10 pr-20 font-bold">
+            <li>Inicio</li>
+            <li><a href="./pages/noticias.html">Noticias</a></li>
+            <li><a href="./pages/motos.html">Motos</a></li>
+            <li><a href="./pages/concesionarios.html">Concesionarios</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <div class="hero grid grid-cols-3 relative">
+        <div class="content-hero flex flex-col justify-center items-center px-4">
+            <p class="text-white font-semibold uppercase mb-8 text-3xl text-center italic">Bienvenido a Motos Honda</p>
+            <p class="text-white w-4/6 text-center font-bold text-sm"> Encuentra la moto de tus sueños, se parte de la familia HONDA</p>
+        </div>
+        <div class="img-hero col-span-2">
+            <img src="./images/hondahero.png" alt="">
+        </div>
+        <div class="w-full absolute flex justify-center bottom-20">
+            <div class="bg-white grid grid-cols-3 w-4/6 rounded-md">
+                <div class="border-r-2 border-red-700 my-2 text-center text-primary font-bold font-bold py-2">
+                    <p>Ficha Tenicas</p>
+                </div>
+                <div class="border-r-2 border-red-700 my-2 text-center  text-primary font-bold py-2">
+                    <p>Conocer Ofertas</p>
+                </div>
+                <div class="my-2  text-center text-primary font-bold  py-2"> 
+                    <p>Piezas de Motor </p>
+                </div>
+            </div>          
+        </div>
+    </div>
+
+</body>
+<footer class="bg-secondary h-20"></footer>
+</html>
